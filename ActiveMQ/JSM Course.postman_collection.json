@@ -1,0 +1,40 @@
+{
+	"info": {
+		"_postman_id": "ca4e9965-c84a-4c33-9a9c-0cea93da36df",
+		"name": "JSM Course",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "15914612"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/publishMessage?Message=Hello world!!!",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"publishMessage"
+					],
+					"query": [
+						{
+							"key": "Message",
+							"value": "Hello world!!!"
+						},
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

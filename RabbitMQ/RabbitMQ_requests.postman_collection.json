@@ -1,0 +1,48 @@
+{
+	"info": {
+		"_postman_id": "ca4e9965-c84a-4c33-9a9c-0cea93da36df",
+		"name": "JSM Course",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "15914612"
+	},
+	"item": [
+		{
+			"name": "publish",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/publish?message=VALID",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"publish"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						},
+						{
+							"key": "message",
+							"value": "VALID"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "handleFailedMessage",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
